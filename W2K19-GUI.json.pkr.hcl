@@ -56,7 +56,7 @@ source "vmware-iso" "W2K19" {
   disk_adapter_type = "nvme"
   disk_size         = "${var.disk_size}"
   disk_type_id      = "0"
-  floppy_files      = ["config/WIN2K19/autounattend.xml"]
+  floppy_files      = ["config/W2K19/autounattend.xml"]
   guest_os_type     = "windows2019srv-64"
   headless          = false
   iso_checksum      = "${var.iso_checksum}"
