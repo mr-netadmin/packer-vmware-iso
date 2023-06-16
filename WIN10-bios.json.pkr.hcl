@@ -83,6 +83,7 @@ source "vmware-iso" "WIN10" {
   vm_name           = "${var.vm_name}"
   vmx_data = {
     "firmware" = "bios"
+    "cpuid.coresPerSocket"   = "1"
     "bios.bootOrder"                        = "hdd,cdrom"
     "bios.hddOrder"                         = "sata0:0"
     "sata0:0.present"                       = "TRUE"
