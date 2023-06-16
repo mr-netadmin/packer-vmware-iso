@@ -73,6 +73,7 @@ source "vmware-iso" "W2K19" {
   vmx_data = {
     "bios.bootOrder"         = "hdd,cdrom"
     "bios.hddOrder"          = "sata0:0"
+    "cpuid.coresPerSocket"   = "1"
     "sata0:0.present"        = "TRUE"
     "sata0:0.startConnected" = "TRUE"
     "sata1.present"          = "TRUE"
