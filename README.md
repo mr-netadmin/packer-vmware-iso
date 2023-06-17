@@ -1,4 +1,4 @@
-# Packer-VMWare-iso Windows 10, Windows 2019 for VMWare Workstation
+# Packer-VMWare-iso Windows 10, Windows 2019 for VMWare Workstation + Static IP + Export OVA
 
 Installation Windows Image and VMWare Tools
 
