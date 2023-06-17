@@ -151,14 +151,6 @@
                     </UnicastIpAddresses>
                     <Identifier>Ethernet0</Identifier>
                 </Interface>
-                <Interface wcm:action="add">
-                    <Ipv4Settings>
-                        <DhcpEnabled>true</DhcpEnabled>
-                        <Metric>1</Metric>
-                        <RouterDiscoveryEnabled>true</RouterDiscoveryEnabled>
-                    </Ipv4Settings>
-                    <Identifier>Ethernet1</Identifier>
-                </Interface>
             </Interfaces>
         </component>
     </settings>
