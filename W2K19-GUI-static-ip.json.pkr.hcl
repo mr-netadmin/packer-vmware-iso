@@ -127,7 +127,7 @@ build {
   }
 
   post-processor "shell-local" {
-  scripts          = ["./config/PH-DC_OVA.cmd"]
+  scripts          = ["./config/W2K19_OVA.cmd"]
 }
 
 }
