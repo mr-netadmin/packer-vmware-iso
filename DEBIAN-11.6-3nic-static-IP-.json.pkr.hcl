@@ -9,6 +9,7 @@
 //iMAGE location  c:\VM\DEBIAN
 //OVA location  c:\VM\OVA\DEBIAN.ova
 //preceed file  c:\VM\http\preceed.cfg
+//Root Password = D3bi4n
 
 variable "boot_wait" {
   type    = string
